@@ -80,7 +80,7 @@ export const injected = new InjectedConnector({
 // mainnet only
 export const walletconnect = new WalletConnectConnector({
   rpc: RPC,
-  bridge: 'https://bridge.walletconnect.org',
+  bridge: 'https://uniswap.bridge.walletconnect.org',
   qrcode: true,
   pollingInterval: 15000,
 })
